@@ -24,11 +24,6 @@ body {
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
 
-  h1 {
-    line-height: 1.2;
-    text-align: center;
-  }
-
   @media (min-width: $mqMdWidth) {
     max-width: 900;
     margin: auto;
@@ -36,6 +31,15 @@ body {
   }
 }
 
+h1 {
+  @extend %title-style;
+  
+}
+
+.icon{
+  @extend %title-style;
+  margin: 0;
+}
 
 
 .galery {
