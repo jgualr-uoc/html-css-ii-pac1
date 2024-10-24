@@ -2,7 +2,7 @@
 
 @function set-colors($color) {
   $invert: invert($color) !global;
-  $light: lighten($invert, 30%) !global;
+  $light: color.adjust($invert, $lightness: 20%) !global;
   @return $color;
 }
 

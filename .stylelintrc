@@ -15,7 +15,9 @@
                     "include",
                     "mixin",
                     "extend",
-                    "use"
+                    "use",
+                    "function",
+                    "return"
                 ]
             }
         ],
